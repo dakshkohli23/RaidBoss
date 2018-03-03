@@ -69,7 +69,7 @@ if(command === "friday") {
 }
   
   if(command === "emoji") {
-	message.channel.sendMessage(":poop:");
+	message.channel.sendMessage(":grin:");
 }
 
 if (command === "listemojis") {

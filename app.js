@@ -69,7 +69,7 @@ if(command === "friday") {
 }
   
   if(command === "emoji") {
-	message.channel.sendMessage(":grin:");
+	message.channel.sendMessage(":poop:");
 }
 
 if (command === "listemojis") {
@@ -83,5 +83,18 @@ if(command === "th9") {
 }
 
 });
+
+if(command === "embed") {
+   guild.createEmoji('./images/abomasnow.gif', 'abomasnow')
+  .then(emoji => console.log(`Created new emoji with name ${emoji.name}`))
+  .catch(console.error);
+}
+
+});
+
+
+
+
+
 
 client.login(config.token);

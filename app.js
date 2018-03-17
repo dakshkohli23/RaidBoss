@@ -82,20 +82,13 @@ if(command === "th9") {
    message.channel.send(`${th9}`);
 }
 
-});
-
 if(command === "embed") {
-   message.channel.send({embed: {
+   message.channel.sendMessage({embed: {
   color: 3447003,
   description: "A very simple Embed!"
 }});
 }
 
 });
-
-
-
-
-
 
 client.login(config.token);

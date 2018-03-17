@@ -89,6 +89,10 @@ if(command === "embed") {
 }});
 }
 
+if(command === "image") {
+	message.change.sendMessage("./images/abomasnow.gif");
+}
+
 });
 
 client.login(config.token);

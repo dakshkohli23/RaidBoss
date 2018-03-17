@@ -98,9 +98,9 @@ if(command === "image") {
    */
   .setColor(0x00AE86)
   .setDescription("This is the main body of text, it can hold 2048 characters.")
-  .setFooter("This is the footer text, it can hold 2048 characters", "https://github.com/dakshkohli23/pingbot/blob/master/images/abomasnow.gif")
+  .setFooter("This is the footer text, it can hold 2048 characters", "https://i.imgur.com/r1UJqlE.png")
   .setImage("https://i.imgur.com/r1UJqlE.png")
-  .setThumbnail("https://github.com/dakshkohli23/pingbot/blob/master/images/abomasnow.gif")
+  .setThumbnail("https://i.imgur.com/r1UJqlE.png")
   /*
    * Takes a Date object, defaults to current date.
    */

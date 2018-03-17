@@ -90,7 +90,11 @@ if(command === "embed") {
 }
 
 if(command === "image") {
-	message.channel.sendMessage("./images/abomasnow.gif");
+	message.channel.send('Message that goes above image', {
+            files: [
+                "./images/abomasnow.gif"
+            ]
+        });
 }
 
 });

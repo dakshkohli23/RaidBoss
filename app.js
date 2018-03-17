@@ -92,19 +92,19 @@ if(command === "embed") {
     "color": 10155578,
     "timestamp": "2018-03-17T11:09:20.298Z",
     "footer": {
-      "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
+      "icon_url": "./images/abomasnow.gif",
       "text": "footer text"
     },
     "thumbnail": {
-      "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+      "url": "./images/abomasnow.gif"
     },
     "image": {
-      "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+      "url": "./images/abomasnow.gif"
     },
     "author": {
       "name": "author name",
       "url": "https://discordapp.com",
-      "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
+      "icon_url": "./images/abomasnow.gif"
     },
     "fields": [
       {

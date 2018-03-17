@@ -90,7 +90,7 @@ if(command === "embed") {
 }
 
 if(command === "image") {
-	message.change.sendMessage("./images/abomasnow.gif");
+	message.channel.sendMessage("./images/abomasnow.gif");
 }
 
 });

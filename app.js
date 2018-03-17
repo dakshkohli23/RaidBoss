@@ -90,11 +90,9 @@ if(command === "embed") {
 }
 
 if(command === "image") {
-	message.channel.send('Message that goes above image', {
-            files: [
-                "./images/abomasnow.gif"
-            ]
-        });
+	const embed = new Discord.RichEmbed()
+	.setTitle("This is your title, it can hold 256 characters")
+	.setImage(".images/abomasnow.gif")
 }
 
 });

@@ -100,7 +100,7 @@ var embed = new Discord.RichEmbed()
   .setColor(0x00AE86)
   .setDescription("This is the main body of text, it can hold 2048 characters.")
   .setFooter("This is the footer text, it can hold 2048 characters", "https://i.imgur.com/r1UJqlE.png")
-  .setImage("https://media.giphy.com/media/1gOac881VI3O6caFdD/giphy.webp")
+  .setImage("https://i.imgur.com/2ANI7WN.gifv")
   .setThumbnail("https://i.imgur.com/r1UJqlE.png")
   /*
    * Takes a Date object, defaults to current date.

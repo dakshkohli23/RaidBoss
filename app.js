@@ -85,9 +85,10 @@ if(command === "th9") {
 });
 
 if(command === "embed") {
-   guild.createEmoji('./images/abomasnow.gif', 'abomasnow')
-  .then(emoji => console.log(`Created new emoji with name ${emoji.name}`))
-  .catch(console.error);
+   message.channel.send({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}});
 }
 
 });

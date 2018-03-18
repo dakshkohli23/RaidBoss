@@ -77,7 +77,7 @@ var embed = new Discord.RichEmbed()
   .setFooter("This is the footer text, it can hold 2048 characters", "https://i.imgur.com/r1UJqlE.png")
   .setImage("https://i.imgur.com/2ANI7WN.gif")
   .setThumbnail("https://i.imgur.com/r1UJqlE.png")
-  .addField("MAX CP : 981")
+  .addField("MAX CP : 981","")
   /*
    * Inline fields may not display as inline if the thumbnail and/or image is too big.
    */
@@ -85,7 +85,6 @@ var embed = new Discord.RichEmbed()
   /*
    * Blank field, useful to create some space.
    */
-  .addBlankField(true)
   .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
 
   message.channel.send({embed});

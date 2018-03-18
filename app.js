@@ -1,13 +1,6 @@
 // Import the discord.js module
 var Discord = require("discord.js");
 
-
-function generateHex() {
-	return "#" + Math.floor(Math.random() * 16777215).toString(16));
-}
-
-
-
 // Create an instance of a Discord client
 var client = new Discord.Client();
 
@@ -23,21 +16,6 @@ client.on("ready", () => {
   // docs refer to as the "ClientUser".
 });
 
-
-
-client.on("guildMemberAdd", function(member) {
-	member.guild.channels.find("name", "general").sendMessage(member.toString()+ "welcome to the hell !");
-	
-	member.addRole(member.guild.role.find("name", "Pokemon Trainer"));
-	
-	member.guild.createRole({
-		name: member.user.username,
-		color: generateHex(),
-		permission: []
-	}).then(function(role) {
-		member.addRole(role);
-	});
-});
 
 
 
@@ -107,14 +85,6 @@ if(command === "embed") {
   color: 3447003,
   description: "A very simple Embed!"
 }});
-}
-
-if(command === "removerole") {
-	message.member.removeRole(member.guild.role.find("name", "Pokemon Trainer");)
-}
-
-if(command === "deleterole") {
-	message.member.guild.role.find("name", "Pokemon Trainer").delete();
 }
 
 if(command === "image") {

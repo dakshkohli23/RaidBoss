@@ -63,7 +63,7 @@ if(command === "pika") {
   } 
 
 if(command === "avatar") {
-	message.reply(message.author.avatarURL);
+	message.channel.sendMessage(message.author.avatarURL);
 }
   
   if(command === "emoji") {

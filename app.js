@@ -102,11 +102,6 @@ var embed = new Discord.RichEmbed()
   .setFooter("This is the footer text, it can hold 2048 characters", "https://i.imgur.com/r1UJqlE.png")
   .setImage("https://i.imgur.com/2ANI7WN.gif")
   .setThumbnail("https://i.imgur.com/r1UJqlE.png")
-  /*
-   * Takes a Date object, defaults to current date.
-   */
-  .setTimestamp()
-  .setURL("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
   .addField("This is a field title, it can hold 256 characters",
     "This is a field value, it can hold 2048 characters.")
   /*

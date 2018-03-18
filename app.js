@@ -74,7 +74,7 @@
 	   */
 	  .setColor("#01B050")
 	  .setDescription("**🔰 TYPE: Grass/Poison**")
-	  .setFooter("This is the footer text, it can hold 2048 characters", "https://i.imgur.com/r1UJqlE.png")
+	  .setFooter("**:boxing_glove: COUNTERS**",)
 	  .setImage("https://i.imgur.com/2ANI7WN.gif")
 	  .setThumbnail("https://i.imgur.com/r1UJqlE.png")
 	  .addField("**🌟 MAX CP : 981**", "**🍬 CANDY TO EVOLVE: 25**")

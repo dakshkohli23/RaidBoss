@@ -73,7 +73,7 @@ var embed = new Discord.RichEmbed()
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
    */
   .setColor("#01B050")
-  .setDescription("**TYPE:** ```Grass``` ```Poison```")
+  .setDescription("**TYPE:**", Grass")
   .setFooter("This is the footer text, it can hold 2048 characters", "https://i.imgur.com/r1UJqlE.png")
   .setImage("https://i.imgur.com/2ANI7WN.gif")
   .setThumbnail("https://i.imgur.com/r1UJqlE.png")
@@ -81,12 +81,7 @@ var embed = new Discord.RichEmbed()
   /*
    * Inline fields may not display as inline if the thumbnail and/or image is too big.
    */
-  .addField("Inline Field", "They can also be inline.", true)
-  /*
-   * Blank field, useful to create some space.
-   */
-  .addBlankField(true)
-  .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
+  .addField("Inline Field 3", "You can have a maximum of 25 fields.");
 
   message.channel.send({embed});
 }

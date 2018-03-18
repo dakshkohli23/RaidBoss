@@ -74,7 +74,7 @@
 	   */
 	  .setColor("#01B050")
 	  .setDescription("**🔰 TYPE: Grass/Poison**")
-	  .setFooter("**:boxing_glove: COUNTERS**",)
+	  .setFooter("🥊 COUNTERS")
 	  .setImage("https://i.imgur.com/2ANI7WN.gif")
 	  .setThumbnail("https://i.imgur.com/r1UJqlE.png")
 	  .addField("**🌟 MAX CP : 981**", "**🍬 CANDY TO EVOLVE: 25**")

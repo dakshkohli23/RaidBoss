@@ -1,9 +1,7 @@
-// Load up the discord.js library
+// Import the discord.js module
 var Discord = require("discord.js");
 
-// This is your client. Some people call it `bot`, some people call it `self`, 
-// some might call it `cootchie`. Either way, when you see `client.something`, or `bot.something`,
-// this is what we're refering to. Your client.
+// Create an instance of a Discord client
 var client = new Discord.Client();
 
 // Here we load the config.json file that contains our token and our prefix values. 
@@ -64,8 +62,8 @@ if(command === "pika") {
     m.edit(`Pikachu`);
   } 
 
-if(command === "friday") {
-	message.channel.sendMessage(`Sir I'm Live ... How May I Assist You`);
+if(command === "avatar") {
+	message.reply(message.author.avatarURL);
 }
   
   if(command === "emoji") {

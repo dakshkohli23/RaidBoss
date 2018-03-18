@@ -74,7 +74,7 @@
 	   */
 	  .setColor("#01B050")
 	  .setDescription("**🔰 TYPE: Grass/Poison**")
-	  .setFooter("COUNTERS", "Entei")
+	  .setFooter("🥊 COUNTERS ```\nEntei```")
 	  .setImage("https://i.imgur.com/2ANI7WN.gif")
 	  .setThumbnail("https://i.imgur.com/r1UJqlE.png")
 	  .addField("**🌟 MAX CP : 981**", "**🍬 CANDY TO EVOLVE: 25**")

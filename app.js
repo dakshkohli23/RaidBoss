@@ -73,11 +73,11 @@
 	   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
 	   */
 	  .setColor("#01B050")
-	  .setDescription("**🚩 TYPE:** Grass/Poison")
+	  .setDescription("**TYPE:** **Grass/Poison**")
 	  .setFooter("This is the footer text, it can hold 2048 characters", "https://i.imgur.com/r1UJqlE.png")
 	  .setImage("https://i.imgur.com/2ANI7WN.gif")
 	  .setThumbnail("https://i.imgur.com/r1UJqlE.png")
-	  .addField("**🔼 MAX CP :**", " 981")
+	  .addField("**MAX CP :**", "**981**")
 	  /*
 	   * Inline fields may not display as inline if the thumbnail and/or image is too big.
 	   */

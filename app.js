@@ -61,7 +61,7 @@
 	if(command === "embed") {
 	   message.channel.sendMessage({embed: {
 	  color: 3447003,
-	  description: "A very simple Embed! (message.author.toString())"
+	  description: "A very simple Embed!"
 	}});
 	}
 
@@ -77,7 +77,7 @@
 	  .setFooter("This is the footer text, it can hold 2048 characters", "https://i.imgur.com/r1UJqlE.png")
 	  .setImage("https://i.imgur.com/2ANI7WN.gif")
 	  .setThumbnail("https://i.imgur.com/r1UJqlE.png")
-	  .addField("MAX CP : 981","")
+	  .addField("MAX CP : 981")
 	  /*
 	   * Inline fields may not display as inline if the thumbnail and/or image is too big.
 	   */

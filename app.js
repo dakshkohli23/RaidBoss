@@ -44,7 +44,7 @@ client.on("message", async message => {
     // The second ping is an average latency between the bot and the websocket server (one-way, not round-trip)
     var m = await message.channel.send("Ping?");
     m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
-    m.edit(`Hello (message.author.mention)`);
+    m.edit(`Hello Mr. Dlaize`);
   }
   
   if(command === "say") {
@@ -57,28 +57,6 @@ client.on("message", async message => {
     message.channel.send(sayMessage);
   }
   
-if(command === "pika") {
-    var m = await message.channel.send("Wait");
-    m.edit(`Pikachu`);
-  } 
-
-if(command === "avatar") {
-	message.channel.sendMessage(message.author.avatarURL);
-}
-  
-  if(command === "emoji") {
-	message.channel.sendMessage(":poop:");
-}
-
-if (command === "listemojis") {
-  var emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
-  message.channel.send(emojiList);
-}
-
-if(command === "th9") {
-   var th9 = client.emojis.get("409429217298612235");
-   message.channel.send(`${th9}`);
-}
 
 if(command === "embed") {
    message.channel.sendMessage({embed: {
@@ -90,8 +68,7 @@ if(command === "embed") {
 if(command === "image") {
 	
 var embed = new Discord.RichEmbed()
-  .setTitle("This is your title, it can hold 256 characters")
-  .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
+  .setTitle("Bulbasaur")
   /*
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
    */

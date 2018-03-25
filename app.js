@@ -42,9 +42,7 @@
 	  if(command === "ping") {
 		// Calculates ping between sending a message and editing it, giving a nice round-trip latency.
 		// The second ping is an average latency between the bot and the websocket server (one-way, not round-trip)
-		var m = await message.channel.send("Ping?");
-		m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
-		m.edit(`Hello Mr. Dlaize`);
+		message.channel.send(`:ping_pong: Pong!`);
 	  }
 	  
 	  if(command === "say") {
@@ -64,28 +62,154 @@
 	  description: "A very simple Embed!"
 	}});
 	}
-
-	if(command === "image") {
+	// Level 1 Raids
+	if(command === "magikarp") {
 		
 	var embed = new Discord.RichEmbed()
-	  .setTitle("Bulbasaur")
-	  /*
-	   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
-	   */
-	  .setColor("#01B050")
-	  .setDescription("**🔰 TYPE: Grass/Poison**")
-	  .setFooter("🥊 COUNTERS - Entei, Moltre, Rayquaza")
-	  .setImage("https://i.imgur.com/2ANI7WN.gif")
-	  .setThumbnail("https://i.imgur.com/r1UJqlE.png")
-	  .addField("**🌟 MAX CP : 981**", "**🍬 CANDY TO EVOLVE: 25**")
-	  /*
-	   * Inline fields may not display as inline if the thumbnail and/or image is too big.
-	   */
-	  .addField("**WEATHER BOOST**", "☀ and ☁")
+	  .setTitle("Magikarp #129 | Raid Level 1")
+	  .setColor("#6390F0")
+	  .setDescription("**:beginner:  TYPE: Water**")
+	  .setFooter(">>Full Guide Soon")
+	  .setImage("https://i.imgur.com/EjWvamL.gif")
+	  .setThumbnail("https://i.imgur.com/2Cp76lc.png")
+	  .addField("**:star2: BOSS CP : 1165**", "**:ballot_box_with_check: Caught CP: 104-125**")
+	  .addField("**WEATHER BOOST**", ":cloud_rain: Rain")
+	  .addField("**WEAK AGAINST**", ":seedling: Grass, :zap: Electric ")
+
+	  message.channel.send({embed});
+	}
+	
+	if(command === "wailmer") {
+		
+	var embed = new Discord.RichEmbed()
+	  .setTitle("Wailmer #320 | Raid Level 1")
+	  .setColor("#6390F0")
+	  .setDescription("**:beginner:  TYPE: Water**")
+	  .setFooter(">>Full Guide Soon")
+	  .setImage("https://i.imgur.com/Xm1Vwqo.gif")
+	  .setThumbnail("https://i.imgur.com/XL9k8yZ.png")
+	  .addField("**:star2: BOSS CP : 3369**", "**:ballot_box_with_check: Caught CP: 756-814**")
+	  .addField("**WEATHER BOOST**", ":cloud_rain: Rain")
+	  .addField("**WEAK AGAINST**", ":seedling: Grass, :zap: Electric ")
+
+	  message.channel.send({embed});
+	}
+	
+	if(command === "swablu") {
+		
+	var embed = new Discord.RichEmbed()
+	  .setTitle("Swablu #333 | Raid Level 1")
+	  .setColor("#A8A77A")
+	  .setDescription("**:beginner:  TYPE: Normal/Flying**")
+	  .setFooter(">>Full Guide Soon")
+	  .setImage("https://i.imgur.com/cg0eael.gif")
+	  .setThumbnail("https://i.imgur.com/XyqC5XU.png")
+	  .addField("**:star2: BOSS CP : 2766**", "**:ballot_box_with_check: Caught CP: 374-412**")
+	  .addField("**WEATHER BOOST**", ":white_sun_small_cloud:  Partly Cloudy, :dash: Wind")
+	  .addField("**WEAK AGAINST**", ":diamond_shape_with_a_dot_inside: Rock, :zap: Electric, :snowflake: Ice")
 
 	  message.channel.send({embed});
 	}
 
+	if(command === "snorunt") {
+		
+	var embed = new Discord.RichEmbed()
+	  .setTitle("Snorunt #361 | Raid Level 1")
+	  .setColor("#96D9D6")
+	  .setDescription("**:beginner:  TYPE: Ice**")
+	  .setFooter(">>Full Guide Soon")
+	  .setImage("https://i.imgur.com/wLKthml.gif")
+	  .setThumbnail("https://i.imgur.com/uuqzz6C.png")
+	  .addField("**:star2: BOSS CP : 2825**", "**:ballot_box_with_check: Caught CP: 402-441**")
+	  .addField("**WEATHER BOOST**", ":snowman: Snow")
+	  .addField("**WEAK AGAINST**", ":diamond_shape_with_a_dot_inside: Rock, :boxing_glove: Fighting, :shield: Steel, :fire: Fire")
+
+	  message.channel.send({embed});
+	}
+	
+	//  Level  2 Raids
+	
+	if(command === "exeggutor") {
+		
+	var embed = new Discord.RichEmbed()
+	  .setTitle("Exeggutor #103 | Raid Level 2")
+	  .setColor("#7AC74C")
+	  .setDescription("**:beginner:  TYPE: Grass/Psychic**")
+	  .setFooter(">>Full Guide Soon")
+	  .setImage("https://i.imgur.com/jHnN8vz.gif")
+	  .setThumbnail("https://i.imgur.com/3YImmJX.png")
+	  .addField("**:star2: BOSS CP : 13839**", "**:ballot_box_with_check: Caught CP: 1589-1666**")
+	  .addField("**WEATHER BOOST**", ":sunny: Clear, :dash: Wind")
+	  .addField("**WEAK AGAINST**", ":spider_web: Bug, :wind_chime: Flying, :fleur_de_lis: Poison, :fire: Fire, :snowflake: Ice, :ghost: Ghost, :eye_in_speech_bubble: Dark")
+
+	  message.channel.send({embed});
+	}
+	
+	if(command === "electabuzz") {
+		
+	var embed = new Discord.RichEmbed()
+	  .setTitle("Electabuzz #125 | Raid Level 2")
+	  .setColor("#F7D02C")
+	  .setDescription("**:beginner:  TYPE: Electric**")
+	  .setFooter(">>Full Guide Soon")
+	  .setImage("https://i.imgur.com/MWCiNfX.gif")
+	  .setThumbnail("https://i.imgur.com/IHOwQHW.png")
+	  .addField("**:star2: BOSS CP : 12390**", "**:ballot_box_with_check: Caught CP: 1188-1255**")
+	  .addField("**WEATHER BOOST**", ":cloud_rain: Rain")
+	  .addField("**WEAK AGAINST**", ":hourglass: Ground")
+
+	  message.channel.send({embed});
+	}
+	
+	if(command === "sableye") {
+		
+	var embed = new Discord.RichEmbed()
+	  .setTitle("Sableye #302 | Raid Level 2")
+	  .setColor("#705746")
+	  .setDescription("**:beginner:  TYPE: Dark/Ghost**")
+	  .setFooter(">>Full Guide Soon")
+	  .setImage("https://i.imgur.com/1GF0xdz.gif")
+	  .setThumbnail("https://i.imgur.com/jDq1Xvg.png")
+	  .addField("**:star2: BOSS CP : 8266**", "**:ballot_box_with_check: Caught CP: 694-745**")
+	  .addField("**WEATHER BOOST**", ":fog: Fog")
+	  .addField("**WEAK AGAINST**", ":sparkles: Fairy")
+
+	  message.channel.send({embed});
+	}
+	
+	if(command === "mawile") {
+		
+	var embed = new Discord.RichEmbed()
+	  .setTitle("Mawile #303 | Raid Level 2")
+	  .setColor("#B7B7CE")
+	  .setDescription("**:beginner:  TYPE: Steel/Fairy**")
+	  .setFooter(">>Full Guide Soon")
+	  .setImage("https://i.imgur.com/0NE572q.gif")
+	  .setThumbnail("https://i.imgur.com/pAcO41v.png")
+	  .addField("**:star2: BOSS CP : 9403**", "**:ballot_box_with_check: Caught CP: 793-848**")
+	  .addField("**WEATHER BOOST**", ":snowman: Snow, :cloud: Cloudy")
+	  .addField("**WEAK AGAINST**", ":hourglass: Ground, :fire: Fire")
+
+	  message.channel.send({embed});
+	}
+	
+	if(command === "manectric") {
+		
+	var embed = new Discord.RichEmbed()
+	  .setTitle("Manectric #310 | Raid Level 2")
+	  .setColor("#F7D02C")
+	  .setDescription("**:beginner:  TYPE: Electric**")
+	  .setFooter(">>Full Guide Soon")
+	  .setImage("https://i.imgur.com/4l62OT8.gif")
+	  .setThumbnail("https://i.imgur.com/erQtU6O.png")
+	  .addField("**:star2: BOSS CP : 11628**", "**:ballot_box_with_check: Caught CP: 1151-1217**")
+	  .addField("**WEATHER BOOST**", ":cloud_rain: Rain")
+	  .addField("**WEAK AGAINST**", ":hourglass: Ground")
+
+	  message.channel.send({embed});
+	}
+	
+	
 	});
 
 	client.login(config.token);

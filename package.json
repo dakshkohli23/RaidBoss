@@ -5,8 +5,6 @@
   "main": "bot.js",
   "scripts": {
     "start": "node app.js"
-     "encrypt": "encrypt config.json config.json.cast5",
-    "decrypt": "decrypt config.json.cast5 config.json"
   },
   "dependencies": {
     "discord.js": "11.1.0",

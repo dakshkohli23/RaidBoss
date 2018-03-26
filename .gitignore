@@ -58,7 +58,5 @@ typings/
 # dotenv environment variables file
 .env
 
-/Build/*
-
-
-git config --global core.excludesfile ~/.config.json
+#json
+*.json
